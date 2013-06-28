@@ -13,4 +13,10 @@ A compiled list of tips/tricks repo.
   
   TODO: format output, add options for foldoc
 
+* Delete lines in files using sed
+
+   ```bash
+   sed -i '<START>,<END>d' <FILENAME>
+   ```
+
 * 
